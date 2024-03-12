@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-image: url(imagens/inicio\ tela\ site.png); 
+    background-size: cover;
+    background-size: 90%;
+}
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.826);
+    padding: 10px; 
+}
+a {
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+a:hover {
+    transition: 500ms;
+    color: red;
+}
+section, h1{
+   font-size: 36px;
+   margin: 120px 50px 0px ;
+   color: white;
+}
+section, p {
+    font-size: 18px;
+    margin: 10px 50px 0px;
+}
+#Sobre, #personagens, #elementos{
+    margin-left:  200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    background-color: grey;
+    padding: 10px 0px 4px;
+    border-radius: 5px;
+    text-align: center;
+}
+#Sobre, h2, #sobrejogo {
+    color: black;
+}
