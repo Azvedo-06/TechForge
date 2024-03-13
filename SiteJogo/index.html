@@ -1,60 +1,46 @@
 <!DOCTYPE html>
- <head>
+<head>
     <html lang="pt-br">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/Head.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Site Oficial | DS</title>
- </head>
+</head>
 
- <body>
+<body>
     <header>
         <img src="imagens/nome.png" alt="Dangeon Survival" title="Dangeon Survival">
         <nav>
             <div>
-                <a href="#">HOME</a>
-                <a href="ojogo.html">O JOGO</a>
-                <a href="#">QUEM SOMOS </a>
-                <a href="#">CONTATO</a>
+                <a href="index.html" title="HOME">HOME</a>
+                <a href="ojogo.html" title="O JOGO">O JOGO</a>
+                <a href="quem.html" title="QUEM SOMOS">QUEM SOMOS </a>
+                <a href="contato.html" title="CONTATO">CONTATO</a>
             </div>
         </nav>
     </header>
 
-    <section>
-        <div class="home">
-         <h1>BEM-VINDO AO SITE<br>OFICIAL DO DANGEON SURVIVAL</h1>
-         <p>Informações, novas atualizações e novas mecânicas junte-se a comunidade e comece a jogar!</p>
-        </div>
-    </section>
+    <main id="mainHome">
+        <section id="bemvindo">
+            <div class="texto">
+                <h1>BEM-VINDO AO SITE<br>OFICIAL DO DANGEON SURVIVAL</h1>
+                <p>Informações, novas atualizações e novas mecânicas junte-se a comunidade e comece a jogar!</p>
+            </div>
+        </section>
+        <section id="atualizacoes">
+            <div class="texto">
+             <h1>ATUAIZAÇÕES DO JOGO</h1>
+             <p>
+                <a style="font-size: 20px; padding: 5px; margin-left: 1px;" href="jogo/Dangeon-Survial-2.1.c3p">Dangeon Survival Versão 2.1</a>
+             </p>
+            </div>
+        </section>   
+    </main>
+    <section id="telajogo">
+        <img src="imagens/telajogo.png" alt="tela do jogo" title="tela do jogo">
+     </section>
 
-    <section id="personagens">
-        <h2>Personagens</h2>
-        <p id="sobrejogo">
-            Jogador - Demian,<br> Um herói de outro mundo com poderes magicos e armas poderosas.<br>
-            <img style="width: 50%; text-align: center;" src="imagens/Wraith_01_Moving Forward_000.png" alt="Demian"
-                title="Demian">
-        </p>
-        <p id="sobrejogo">
-            Inimigos - Os Corrompidos,<br> são do mesmo mundo de Demian mas estão sendo comandados por algo.
-            <img style="width: 50%; text-align: center;" src="imagens/Wraith_03_Moving Forward_000.png"
-                alt="Corrompidos" title="Corrompidos">
-        </p>
-        <p id="sobrejogo">
-            Inimigos - Os caçadores,<br> são mais fortes e rapidos que os Corrompidos estão atras da recompensa da
-            cabeça de Demian.
-            <img style="width: 50%; text-align: center;" src="imagens/Wraith_02_Moving Forward_000.png" alt="Caçadores"
-                title="Caçadores">
-        </p>
-    </section>
-    <section id="elementos">
-        <h2>Elementos</h2>
-        <p id="sobrejogo"> Armas e magias do Jogador</p>
-        <p id="sobrejogo">Magia - Esfera de energia azul <br> <img src="imagens/Spells Effect01.png" alt="Esfera Azul"
-                title="Esfera De Energia Azul"></p>
-        <p id="sobrejogo">Armas - Lança chamas em breve</p>
-    </section>
-
- </body>
+</body>
 
 </html>
