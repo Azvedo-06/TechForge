@@ -2,13 +2,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     background-image: url(imagens/inicio\ tela\ site.png); 
+    background-size: 10%;
     background-size: cover;
-    background-size: 90%;
 }
 header {
-    text-align: center;
+    text-align: center;   
     background-color: rgba(0, 0, 0, 0.826);
     padding: 10px; 
+}
+nav {
+    margin: 2px;
+    float: left;
 }
 a {
     float: left;
@@ -21,19 +25,33 @@ a:hover {
     transition: 500ms;
     color: red;
 }
-section, h1{
-   font-size: 36px;
-   margin: 120px 50px 0px ;
-   color: white;
+main {
+    width: 50%;
+    float: left;
 }
-section, p {
+.home2 h1, .home h1{
+    font-size: 36px;
+    margin: 120px 50px 0px ;
+    color: white;
+}
+.home2 p, .home p {
     font-size: 18px;
     margin: 10px 50px 0px;
+    color: white;
+}
+.home3 h1 {
+    font-size: 36px;
+    margin: 120px 50px 0px;
+    color: white;
+}
+.home3 p {
+    font-size: 18px;
+    margin: 10px 50px 0px;
+    color: white;
 }
 #Sobre, #personagens, #elementos{
-    margin-left:  200px;
-    margin-right: 200px;
-    margin-top: 100px;
+    width: 1000px;
+    margin: auto;
     background-color: grey;
     padding: 10px 0px 4px;
     border-radius: 5px;
