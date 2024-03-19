@@ -3,6 +3,7 @@ body {
     margin: 0px;
     background-image: url(imagens/fundo.jpg);
 }
+
 header {
     text-align: center;   
     background-color: rgba(0, 0, 0, 0.826);
@@ -67,6 +68,8 @@ a:hover {
 }
 .contato {
     color: black;
+    text-align: center;
+    padding: 25px;
 }
 #somos1 {
     box-shadow: 0px 0px 10px black;
@@ -75,7 +78,4 @@ a:hover {
     padding: 50px;
     border-radius: 10px;
     text-align: center;
-}
-#somos1 a {
-    text-align: center
 }
