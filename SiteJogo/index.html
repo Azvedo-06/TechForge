@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+
 <head>
     <html lang="pt-br">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/Head.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <title>Site Oficial | DS</title>
 </head>
 
@@ -12,34 +14,59 @@
     <header>
         <img src="imagens/nome.png" alt="Dangeon Survival" title="Dangeon Survival">
         <nav>
-            <div>
-                <a href="index.html" title="HOME">HOME</a>
-                <a href="ojogo.html" title="O JOGO">O JOGO</a>
-                <a href="quem.html" title="QUEM SOMOS">QUEM SOMOS </a>
-                <a href="contato.html" title="CONTATO">CONTATO</a>
-            </div>
+            <ul>
+                <li>
+                    <a href="index.html" title="HOME">
+                        <i class="fa-solid fa-house"></i>
+                        HOME
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ojogo.html" title="O JOGO">
+                        <i class="fa-solid fa-gamepad"></i>
+                        O JOGO
+                    </a>
+                </li>
+
+                <li>
+                    <a href="quem.html" title="QUEM SOMOS">
+                        <i class="fa-solid fa-question"></i>
+                        QUEM SOMOS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contato.html" title="CONTATO">
+                        <i class="fa-solid fa-envelope"></i>
+                        CONTATO
+                    </a>
+                </li>
+            </ul>
         </nav>
     </header>
 
     <main id="mainHome">
-        <section id="bemvindo">
-            <div class="texto">
-                <h1>BEM-VINDO AO SITE<br>OFICIAL DO DANGEON SURVIVAL</h1>
-                <p>Informações, novas atualizações e novas mecânicas junte-se a comunidade e comece a jogar!</p>
-            </div>
-        </section>
-        <section id="atualizacoes">
-            <div class="texto">
-             <h1>ATUAIZAÇÕES DO JOGO</h1>
-             <p>
-                <a style="font-size: 20px; padding: 5px; margin-left: 1px;" href="jogo/Dangeon-Survial-2.1.c3p">Dangeon Survival Versão 2.1 (Download Arquivo Construct)</a>
-             </p>
-            </div>
-        </section>   
+        <div class="texto">
+            <h1>BEM-VINDO AO SITE<br>OFICIAL DO DANGEON SURVIVAL</h1>
+            <p>Informações, novas atualizações e novas mecânicas junte-se a comunidade e comece a jogar!</p>
+        </div>
+
+        <div class="texto">
+            <h1>ATUAIZAÇÕES DO JOGO</h1>
+            <p>
+                <a style="font-size: 20px; padding: 5px; margin-left: 1px;" href="jogo/Dangeon-Survial-2.1.c3p"
+                    title="Download do arquivo do jogo via Construct">
+                    <i class="fa-solid fa-download"></i>
+                    Dangeon Survival Versão 2.1 (Download Arquivo Construct)
+                </a>
+            </p>
+        </div>
     </main>
-    
-    <section id="telajogo">
+
+    <aside>
         <img src="imagens/telajogo.png" alt="tela do jogo" title="tela do jogo">
-    </section>
+    </aside>
 </body>
+
 </html>

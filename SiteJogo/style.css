@@ -3,34 +3,41 @@ body {
     margin: 0px;
     background-image: url(imagens/fundo.jpg);
 }
-
+header, img {
+    text-align: center;
+}
 header {
-    text-align: center;   
+    width: 100%; 
     background-color: rgba(0, 0, 0, 0.826);
     padding: 10px; 
+    box-sizing: border-box;
+    display: inline-block;
 }
-nav {
-    margin: 4px;
+header nav {
     float: left;
 }
-a {
-    float: left;
-    padding: 10px;
-    text-decoration: none;
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 5px;
+}
+header nav ul li a, a {
     color: white;
-    font-size: 15px;
+    text-decoration: none;
 }
 a:hover {
     transition: 500ms;
     color: red;
 }
 #mainHome {
-    width: 50%;
+    width: 45%;
     float: left;
 }
 .texto h1{
     font-size: 36px;
-    margin: 120px 50px 0px ;
+    margin: 100px 50px 0px ;
     color: white;
 }
 .texto p {
@@ -50,32 +57,22 @@ a:hover {
     padding: 10px;
     border-radius: 10px;
 }
-
-#somos img  {
+#somos img  { 
   border-radius: 10px;
 }
-
-#telajogo {
-     width: 50%;
+aside {
+     width: 45%;
      float: right;
+     margin-top: 100px;
 }
-
-#telajogo img {
+aside img {
     width: 80%;
-    margin: 20px;
-    margin-top: 100px;
-    border: 5px solid black;
+    border-radius: 5px;
+    border: 5px solid black; 
 }
 .contato {
     color: black;
     text-align: center;
     padding: 25px;
 }
-#somos1 {
-    box-shadow: 0px 0px 10px black;
-    background-color: rgba(255, 255, 255, 0.868);
-    margin: 100px;
-    padding: 50px;
-    border-radius: 10px;
-    text-align: center;
-}
+
