@@ -8,7 +8,7 @@ header, img {
 }
 header {
     width: 100%; 
-    background-color: rgba(0, 0, 0, 0.826);
+    background-color: rgb(0, 0, 0);
     padding: 10px; 
     box-sizing: border-box;
     display: inline-block;
@@ -76,3 +76,25 @@ aside img {
     padding: 25px;
 }
 
+@media(max-width: 800px ) {
+    body {
+        margin: 0px;
+        margin-bottom: 15px;
+       padding-top: 90px;
+    }
+    header  {
+        text-align: center;
+        position: fixed;
+        top: 0;
+    }
+    main #somos #grid , main #grid {
+        grid-template-columns: repeat(1, 100%);
+    }
+    main #somos #grid .contato {
+        font-size: 11px;
+    }
+    #mainHome .texto h1 {
+        font-size: 20px ;
+        
+    }
+}
