@@ -76,9 +76,10 @@ aside img {
     text-align: center;
     padding: 25px;
 }
-.header-menu {
+.header-menu , #play{
     display: none;
 }
+
 @media(max-width: 800px ) {
 
     body {
@@ -124,5 +125,16 @@ aside img {
     }
     #mainHome {
         width: 100%;
+    }
+    #somos  {
+        width: 400px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #play {
+        display: block ;
+    }
+    #mainIfreme {
+        display: none;
     }
 }
