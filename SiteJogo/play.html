@@ -15,7 +15,12 @@
     <header>
         <img class="animate__animated animate__backInDown" src="imagens/nome.png" alt="DangeonSurvival"
             title="Dangeon Survival">
-        <nav>
+
+        <a href="javascript: mostrarMenu()" title="Menu" class="header-menu animate__animated animate__bounceInRight">
+            <i class="fa-solid fa-bars"></i>
+
+        </a>
+        <nav class="header-nav">
             <ul class="animate__animated animate__bounceInLeft">
                 <li>
                     <a href="index.html" title="HOME">
@@ -56,8 +61,15 @@
     </header>
 
     <main>
-        
+
     </main>
+
+    <script>
+        function mostrarMenu() {
+            let menu = document.querySelector(" .header-nav ");
+            menu.classList.toggle("show");
+        }
+    </script>
 </body>
 
 </html>
