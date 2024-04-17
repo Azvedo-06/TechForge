@@ -149,5 +149,18 @@ aside img {
             width: 200px;
             height: 200px;
         }
+        body {
+            box-sizing: border-box;
+        }
+    }
+    @media (max-width: 500px) {
+        body {
+            box-sizing: border-box;
+        }
+        #somos {
+            width: 350px;
+            margin: auto;
+            margin-top: 20px;
+        }
     }
 }
